@@ -1,5 +1,9 @@
 # KImóveis - TypeORM com Relacionamentos
 
+#### Nesse projetos desenvolvi um serviço de back-end responsável por gerenciar uma imobiliária utilizando TypeORM e relacionamentos com base no diagrama abaixo:
+
+![DER-Entrega5](https://user-images.githubusercontent.com/71359547/209883659-8d54d3e7-dabe-44bb-b4ca-3334568cfac9.png)
+
 Para inciar este projeto, é necessário instalar as dependências, que serão utilizadas nos testes. Portanto utilize o comando abaixo para instalar tais dependências:
 
 ````
@@ -17,43 +21,22 @@ yarn dev
 
 <br>
 
-# **Sobre os testes**
+## 🚀 Tecnologias Usadas
+<div>
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+    <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+    
+</div><br>
 
-Essa aplicação possui testes, que serão utilizados para validar, se todas as regras de negócio foram aplicadas de maneira correta.
-
-Os testes estão localizados em `src/__tests__`.
-
-Na subpasta `integration` estão os testes.
-
-Já na subpasta `mocks` estão os dados que serão utilizados para os testes.
-
-No arquivo `jest.config.json` estão algumas configurações necessárias para os testes rodarem.
-
-**`De modo algum altere qualquer um desses arquivos.`** Isso poderá comprometer a integridade dos testes.
-
-E também não altere o script de `test` localizado no `package.json`. Isso será utilizado para rodar os testes.
+## 📚 Outras bibliotecas 
+<p>Yup</p>
+<p>Bcryptjs</p>
+<p>Typeorm</p>
+<p>Jsonwebtoken<p>
 
 <br>
-
-
-# **Rodando os testes** 
-
-Para rodar os testes é necessário que no seu terminal, você esteja dentro do diretório do projeto.
-
-Estando no terminal e dentro do caminho correto, você poderá utilizar os comandos a seguir:
-
-### Rodar todos os testes
-````
-yarn test
-````
-#
-### Rodar todos os testes e ter um log ainda mais completo
-````
-yarn test --all
-````
-#### Nesse projetos desenvolvi um serviço de back-end responsável por gerenciar uma imobiliária utilizando TypeORM e relacionamentos com base no diagrama abaixo:
-
-![DER-Entrega5](https://user-images.githubusercontent.com/71359547/209883659-8d54d3e7-dabe-44bb-b4ca-3334568cfac9.png)
 
 ## Endpoints do serviço:
 
@@ -145,18 +128,19 @@ yarn test --all
   <li>A rota lista todos os agendamentos de um imóvel.</li>
   <li>A rota pode ser acessada apenas por administradores.</li>
 </ul> 
-  
-  ## 🚀 Tecnologias Usadas
-<div>
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-    <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-    
-</div><br>
 
-## 📚 Outras bibliotecas 
-<p>Yup</p>
-<p>Bcryptjs</p>
-<p>Typeorm</p>
-<p>Jsonwebtoken<p>
+# **Rodando os testes** 
+
+Para rodar os testes é necessário que no seu terminal, você esteja dentro do diretório do projeto.
+
+Estando no terminal e dentro do caminho correto, você poderá utilizar os comandos a seguir:
+
+### Rodar todos os testes
+````
+yarn test
+````
+#
+### Rodar todos os testes e ter um log ainda mais completo
+````
+yarn test --all
+````
