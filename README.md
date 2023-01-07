@@ -43,6 +43,7 @@ yarn dev
     <li>Cadastro e modificação de usuários e imóveis.</li>
     <li>Agendamentos de visitas a propriedades.</li>
     <li>Login e autenticação jwt.</li>
+    <li>Criptografia de senha.</li>
 </ul>
 
 ## Endpoints do serviço:
